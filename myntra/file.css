@@ -1,0 +1,280 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid rgb(244, 244, 244);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+#logo {
+    height: 3.5rem;
+}
+
+.logo {
+    margin-left: 2%;
+}
+
+.action {
+    width: 5rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 650;
+    color: #000500;
+    font-size: 14px;
+}
+
+.nav {
+    width: 42%;
+    display: flex;
+    /* min-width:600px; */
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    border-bottom: 3.5px solid rgb(202, 44, 44);
+}
+
+/* .nav a{
+    padding: 30px 0;
+} */
+sup {
+    font-weight: 600;
+    color: red;
+}
+
+.search {
+    display: flex;
+    height: 40px;
+    /* min-width: 200px; */
+    width: 30%;
+    align-items: center;
+}
+
+#search_write {
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0px;
+}
+
+.material-symbols-outlined {
+    box-sizing: content-box;
+    padding: 10px;
+    height: 20px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+
+.action {
+    width: 12%;
+    display: flex;
+    /* min-width: 200px; */
+    justify-content: space-between;
+    background-color: white;
+}
+
+.action_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+#profile {
+    background-color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#wishlist {
+    background-color: white;
+    font-size: 22px;
+}
+
+#bag {
+    background-color: white;
+    font-size: 22px;
+}
+
+.action_name {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+#bnr {
+    border: 2px solid black;
+    width: 86%;
+
+}
+
+h2 {
+    margin: 4% 3%;
+    letter-spacing: .1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sml_bnr {
+    padding-left: 20px;
+    height: 361px;
+    width: 290px;
+}
+
+.SBC {
+    padding-bottom: 70px;
+}
+
+#a {
+    height: 50px;
+}
+
+td {
+    margin-left: 50px;
+}
+
+footer {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.txt_ftr {
+    padding-bottom: 8px;
+}
+
+.ftr h5 {
+    color: #696e79;
+}
+
+.copyright {
+    background-color: whitesmoke;
+}
+
+.prof:hover {
+    border-bottom: 3.5px solid rgb(202, 44, 44);
+}
+
+.prof {
+    padding-bottom: 1.6rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    align-items: center;
+}
+
+.item {
+    width: 22%;
+}
+
+.rating {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.item_photo {
+    margin-top: 8%;
+    width: 100%;
+    height: 22rem;
+
+}
+
+.brand {
+    padding: 0.5rem 0 0.1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.item_name {
+    overflow: hidden;
+    font-size: 0.85rem;
+    color: #3b3b3b;
+    padding-bottom: 0.3rem;
+}
+
+.o_price {
+    overflow: hidden;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.d_price {
+    padding: 0 0.1rem;
+    text-decoration: line-through;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #545454;
+}
+
+.off {
+    overflow: hidden;
+    color: rgb(255, 162, 0);
+    font-size: 0.7rem;
+    font-weight: 600;
+    width: 100%;
+}
+
+.price {
+    padding-bottom: 0.2rem;
+}
+
+.add {
+    height: 2rem;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0.13rem 0.13rem;
+    border: 1px solid;
+    font-size: 0.88rem;
+    cursor: pointer;
+}
+
+.add:hover {
+    background-color: white;
+    color: black;
+}
+
+.addToBag {
+    background-color: red;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 0 18px 0;
+    height: 1px;
+    width: 14px;
+    position: relative;
+    border-radius: 10rem;
+    font-size: 11px;
+    color: white;
+    left: 9px;
+    top: -49px;
+    font-weight: 600;
+    cursor: pointer;
+}

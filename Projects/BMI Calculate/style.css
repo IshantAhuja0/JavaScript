@@ -1,0 +1,22 @@
+input{
+  padding: 0.7rem;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  border-radius:0.2rem ;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(184, 184, 184);
+}
+button{
+  padding: 0.4rem;
+  border-radius:0.2rem ;
+}
+.result{
+  display: inline-block;
+  background-color: white;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.2rem;
+}

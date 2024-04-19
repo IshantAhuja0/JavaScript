@@ -1,0 +1,19 @@
+.boxex{
+  width: 7rem;
+  height: 7rem;
+  margin: 2rem;
+  border: 2px solid ;
+  border-radius: 0.2rem;
+}
+#red{
+  background-color: red;
+}
+#green{
+  background-color: green;
+}
+#blue{
+  background-color: blue;
+}
+#yellow{
+  background-color: yellow;
+}

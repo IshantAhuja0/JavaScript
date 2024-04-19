@@ -1,0 +1,19 @@
+body{
+  width: 100%;
+  display: flex;
+  background-color: rgb(233, 233, 233);
+  justify-content: center;
+}
+button{
+  padding: 0.55rem;
+  border-radius:0.2rem ;
+}
+input{
+  padding: 0.55rem;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  border-radius:0.2rem ;
+}
+#loworhigh{
+  color: red;
+}

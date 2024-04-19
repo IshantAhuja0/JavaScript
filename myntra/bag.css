@@ -1,0 +1,155 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  border-bottom:2px solid rgb(244, 244, 244);
+ display: flex;
+ justify-content:space-evenly;
+ align-items: center;
+ height: 80px;
+ background-color:white;
+ font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#logo{
+  height:3.5rem;
+}
+.logo{
+  margin-left: 2%;
+}
+.action{
+  /* margin-right: 4%; */
+  width: 5rem;
+  /* / */
+}
+a{
+  text-decoration: none;
+  font-weight: 650;
+  color:#000500;
+  font-size:14px;
+}
+.nav{
+  width: 42%;
+  display: flex;
+  /* min-width:600px; */
+  justify-content: space-evenly;
+  text-transform: uppercase;
+}
+.nav a:hover{
+  border-bottom: 3.5px solid rgb(202, 44, 44);
+}
+/* .nav a{
+  padding: 30px 0;
+} */
+sup{
+  font-weight: 600;
+  color:red ;
+}
+
+.search{
+  display: flex;
+  height: 40px;
+  /* min-width: 200px; */
+  width:30%;
+  align-items: center;
+}
+#search_write{
+  color:#696e79;
+  background-color: #f5f5f6;
+  flex-grow: 1;
+  height: 40px;
+  border: 0px;
+}
+.material-symbols-outlined {
+  box-sizing: content-box;
+  padding: 10px;
+  /* padding-top: 1.3rem; */
+  height: 20px;
+ background-color: #f5f5f6;
+  color: #282c3f;
+  font-weight: 300;
+  border-radius: 4px 0 0 4px;
+}
+.action{
+  width: 12%;
+  display: flex;
+  /* min-width: 200px; */
+  justify-content:space-between;
+  background-color: white;
+}
+.action_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+#profile{
+  background-color: white;
+  font-size: 22px;
+  cursor:pointer;
+}
+#wishlist{
+  background-color: white;
+  font-size: 22px;
+}
+#bag{
+  background-color: white;
+  font-size: 22px;
+}
+.action_name{
+  font-weight: 700;
+  font-size: 12px;
+}
+
+#bnr{
+  border: 2px solid black;
+  width: 86%;
+  
+}
+h2{
+  margin: 4% 3%;
+  letter-spacing: .1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sml_bnr{
+  padding-left: 20px;
+  height:361px ;
+  width: 290px;
+}
+.SBC{
+  padding-bottom: 70px;
+}
+
+
+#a{
+height: 50px;
+}
+td{
+  margin-left: 50px;
+}
+footer{
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 30px;
+  background-color:whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+.txt_ftr{
+ padding-bottom: 8px;
+}
+
+.ftr h5{
+  color: #696e79;
+}
+.copyright{
+  background-color:whitesmoke ;
+}
+.prof:hover{
+  border-bottom: 3.5px solid rgb(202, 44, 44);
+}
+.prof{
+  padding-bottom: 1.6rem;
+}
